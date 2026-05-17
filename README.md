@@ -53,14 +53,15 @@ f1-pitstop-duration-prediction/
 | 8 — Classification Targets | Binary and 3-class targets from training quantiles |
 | 9 — Baselines | Mean, median, constructor-average |
 | 10 — Regression (Task A) | Linear → Ridge → Lasso → KNN → DT → RF → GBM → XGBoost → LightGBM → MLP |
-| 11 — Hyperparameter Tuning | RandomizedSearchCV with TimeSeriesSplit |
-| 12 — SHAP Interpretability | Summary, waterfall, dependence, SHAP vs Gini comparison |
-| 13 — Error Analysis | Residual plots, worst predictions, learning curves |
-| 14 — Model Stacking | RF + XGBoost + LightGBM with Ridge meta-learner |
-| 15 — Classification (Task B) | 9 classifiers, ROC curves, confusion matrices, 3-class XGBoost, calibration |
-| 16 — Final Summary | Full leaderboards and comparison charts |
-| 17 — Conclusions | Key findings, performance summary, model limitations |
-| 18 — Future Work | Fuel load data, Ergast API merge, two-stage modelling |
+| 11 - Era-Specific Regression | For refueling era: train on 1994-2007, val on 2008, test on 2009 |
+| 12 — Hyperparameter Tuning | RandomizedSearchCV with TimeSeriesSplit |
+| 13 — SHAP Interpretability | Summary, waterfall, dependence, SHAP vs Gini comparison |
+| 14 — Error Analysis | Residual plots, worst predictions, learning curves |
+| 15 — Model Stacking | RF + XGBoost + LightGBM with Ridge meta-learner |
+| 16 — Classification (Task B) | 9 classifiers, ROC curves, confusion matrices, 3-class XGBoost, calibration |
+| 17 — Final Summary | Full leaderboards and comparison charts |
+| 18 — Conclusions | Key findings, performance summary, model limitations |
+| 19 — Future Work | Fuel load data, Ergast API merge, two-stage modelling |
 
 ---
 
